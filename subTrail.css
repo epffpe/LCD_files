@@ -1,0 +1,606 @@
+/*
+  The original subTrail Theme for phpBB version 2+
+  Created by subBlue design
+  http://www.subBlue.com
+*/
+
+
+BODY {
+	SCROLLBAR-FACE-COLOR: #D3D39C; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #dfdfb9; SCROLLBAR-3DLIGHT-COLOR: #eae8cf; SCROLLBAR-ARROW-COLOR: #3f702e; SCROLLBAR-TRACK-COLOR: #eae8cf; SCROLLBAR-DARKSHADOW-COLOR: #dfdfb9; BACKGROUND-COLOR: #d5e3d7
+}
+.advbg {
+       background-color: #d5e3d7;
+}
+FONT {
+	FONT-FAMILY: Verdana, Arial, Helvetica
+}
+TH {
+	FONT-FAMILY: Verdana, Arial, Helvetica
+}
+TD {
+	FONT-FAMILY: Verdana, Arial, Helvetica
+}
+P,UL,LI,OL {
+	FONT-FAMILY: Verdana, Arial, Helvetica
+}
+A:link {
+	COLOR: #3f702e
+}
+A:active {
+	COLOR: #3f702e
+}
+A:visited {
+	COLOR: #3f702e
+}
+A:hover {
+	COLOR: #dd6900; TEXT-DECORATION: underline
+}
+HR {
+	BORDER-RIGHT: #eae8cf 0px solid; BORDER-TOP: #eae8cf 1px solid; BORDER-LEFT: #eae8cf 0px solid; BORDER-BOTTOM: #eae8cf 0px solid; HEIGHT: 0px
+}
+.bodyline {
+	BORDER-RIGHT: #dfdfb9 1px solid; BORDER-TOP: #dfdfb9 1px solid; BORDER-LEFT: #dfdfb9 1px solid; BORDER-BOTTOM: #dfdfb9 1px solid; BACKGROUND-COLOR: #ffffff
+}
+.forumline {
+	BORDER-RIGHT: #55925d 2px solid; BORDER-TOP: #55925d 2px solid; BORDER-LEFT: #55925d 2px solid; BORDER-BOTTOM: #55925d 2px solid; BACKGROUND-COLOR: #ffffff
+}
+TD.row1 {
+	BACKGROUND-COLOR: #eae8cf
+}
+TD.row2 {
+	BACKGROUND-COLOR: #dfdfb9
+}
+TD.row3 {
+	BACKGROUND-COLOR: #eae8cf
+}
+TD.sponsor {
+	BACKGROUND-COLOR: #FBE9AC
+}
+
+#belka1 {
+	 BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BACKGROUND-IMAGE: url(../../images/belka_1_left.jpg) 
+}
+#szukajka {
+  width: 99px;  height: 21px;  margin: 0;  padding: 0;  border: 0;
+  background: transparent url(../../images/belka_szukaj2.jpg) no-repeat;  text-indent: -1000em;  cursor: pointer;   cursor: hand; 
+}
+#belkaciemne {
+	 HEIGHT: 16px; BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BACKGROUND-IMAGE: url(../../images/belka_1_ciemne.jpg) 
+}
+#belkajasne {
+	 BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BACKGROUND-IMAGE: url(../../images/belka_1_jasne.jpg) 
+}
+#belkalogo {
+	 BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BACKGROUND-IMAGE: url(../../images/logo_zielone.jpg) 
+}
+#linkimenu {
+	COLOR: #FFFFFF; FONT-FAMILY: Arial; FONT-WEIGHT: bold; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+
+div#naglowek{
+  width:99%;
+  BACKGROUND-COLOR: #eae8cf;
+  border: #55925d solid 2px;
+  padding:1px;
+  font-family: Verdana,Arial,Helvetica;
+  font-weight: bold;
+  font-size: 11px;  
+ }
+
+div#belka_gorna{
+  height:25px;
+  width:100%;
+  BACKGROUND-IMAGE: url(../../images/tlo_g.jpg);
+ 
+}
+div#belka_gorna_1024{
+  height:100%;
+  width: 950px;
+  BORDER-RIGHT: #C0C0C0 1px solid; 
+}
+
+div#belka_gorna_1024 a div {
+  height:19px;
+  margin-top:6px;  
+}
+div#belka_gorna_1024 a{
+  width:11%;
+  BORDER-LEFT: #C0C0C0  1px solid;
+  float: left;
+  COLOR:#808080;
+  display:block;
+  text-decoration: none;
+  
+}
+.guzik {
+cursor: pointer ; 
+}
+div#belka_gorna_1024 A:hover {
+	COLOR: #dd6900; TEXT-DECORATION: none;
+	 
+}
+div#belka_srodkowa{
+  height:70px;
+  width:100%;
+  BORDER-TOP: #000000 1px solid;
+}
+div#belka_srodkowa_1024{
+  height:100%;
+  width: 950px;
+  
+ 
+}
+div#logo{
+  width:349px;
+  height:67px;
+  BACKGROUND-IMAGE: url(../../images/logo_zielone.jpg); 
+  vertical-align: middle ;
+   display:inline;
+   float:left;
+  
+}
+#search_engine {color : black;
+height: 19px; 
+FONT-WEIGHT: bold; 
+BACKGROUND-COLOR: #ECECEC; 
+FONT-SIZE: 12px; 
+border-width: 1px; 
+border-style: solid;}
+
+#search_engine option {
+  color: black;
+}
+div#belka_srodkowa_form form button {
+  height: 19px; 
+  COLOR:#808080;
+  width: 100px;
+
+FONT-WEIGHT: bold; 
+BACKGROUND-COLOR: #ECECEC; 
+FONT-SIZE: 12px; 
+border-width: 1px; 
+border-style: solid;
+border-color:black;
+}
+div#belka_srodkowa_form {
+ float:left;
+ margin-top:26px;
+}
+div#belka_srodkowa_form *{
+
+ vertical-align: middle ;
+}
+
+div#belka_dolna{
+    height:18px;
+    width:100%;
+    background-color: #4f8b3a;
+     text-align:center;
+}
+div#belka_dolna_1024{
+  height:100%;
+  width: 950px;
+  padding-top:2px;
+  color: white;
+  
+}
+div#belka_dolna_1024 a {
+  color: white;
+  text-decoration: none ;
+}
+
+div#belka_dolna_1024 a:hover{
+   COLOR: white; TEXT-DECORATION: underline;
+}
+TD.rowpic {
+BACKGROUND-COLOR: #ffffff
+}
+TH {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #FFFFFF; HEIGHT: 25px; BACKGROUND-COLOR: #4F8B3A
+}
+TD.cat {
+	BORDER-RIGHT: #eae8cf solid; BORDER-TOP: #eae8cf solid; BORDER-LEFT: #eae8cf solid; BORDER-BOTTOM: #eae8cf solid; HEIGHT: 28px; BACKGROUND-COLOR: #dfdfb9
+}
+TD.catHead {
+	BORDER-RIGHT: #eae8cf solid; BORDER-TOP: #eae8cf solid; BORDER-LEFT: #eae8cf solid; BORDER-BOTTOM: #eae8cf solid; HEIGHT: 28px; BACKGROUND-COLOR: #dfdfb9
+}
+TD.catSides {
+	BORDER-RIGHT: #eae8cf solid; BORDER-TOP: #eae8cf solid; BORDER-LEFT: #eae8cf solid; BORDER-BOTTOM: #eae8cf solid; HEIGHT: 28px; BACKGROUND-COLOR: #dfdfb9
+}
+TD.catLeft {
+	BORDER-RIGHT: #eae8cf solid; BORDER-TOP: #eae8cf solid; BORDER-LEFT: #eae8cf solid; BORDER-BOTTOM: #eae8cf solid; HEIGHT: 28px; BACKGROUND-COLOR: #dfdfb9
+}
+TD.catRight {
+	BORDER-RIGHT: #eae8cf solid; BORDER-TOP: #eae8cf solid; BORDER-LEFT: #eae8cf solid; BORDER-BOTTOM: #eae8cf solid; HEIGHT: 28px; BACKGROUND-COLOR: #dfdfb9
+}
+TD.catBottom {
+	BORDER-RIGHT: #eae8cf solid; BORDER-TOP: #eae8cf solid; BORDER-LEFT: #eae8cf solid; BORDER-BOTTOM: #eae8cf solid; HEIGHT: 28px; BACKGROUND-COLOR: #dfdfb9
+}
+TD.cat {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 29px; BORDER-RIGHT-WIDTH: 0px
+}
+TD.catHead {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 29px; BORDER-RIGHT-WIDTH: 0px
+}
+TD.catBottom {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 29px; BORDER-RIGHT-WIDTH: 0px
+}
+TH.thHead {
+	BORDER-RIGHT: #ffffff solid; BORDER-TOP: #ffffff solid; FONT-WEIGHT: bold; BORDER-LEFT: #ffffff solid; BORDER-BOTTOM: #ffffff solid; HEIGHT: 28px
+}
+TH.thSides {
+	BORDER-RIGHT: #ffffff solid; BORDER-TOP: #ffffff solid; FONT-WEIGHT: bold; BORDER-LEFT: #ffffff solid; BORDER-BOTTOM: #ffffff solid; HEIGHT: 28px
+}
+TH.thTop {
+	BORDER-RIGHT: #ffffff solid; BORDER-TOP: #ffffff solid; FONT-WEIGHT: bold; BORDER-LEFT: #ffffff solid; BORDER-BOTTOM: #ffffff solid; HEIGHT: 28px
+}
+TH.thLeft {
+	BORDER-RIGHT: #ffffff solid; BORDER-TOP: #ffffff solid; FONT-WEIGHT: bold; BORDER-LEFT: #ffffff solid; BORDER-BOTTOM: #ffffff solid; HEIGHT: 28px
+}
+TH.thRight {
+	BORDER-RIGHT: #ffffff solid; BORDER-TOP: #ffffff solid; FONT-WEIGHT: bold; BORDER-LEFT: #ffffff solid; BORDER-BOTTOM: #ffffff solid; HEIGHT: 28px
+}
+TH.thBottom {
+	BORDER-RIGHT: #ffffff solid; BORDER-TOP: #ffffff solid; FONT-WEIGHT: bold; BORDER-LEFT: #ffffff solid; BORDER-BOTTOM: #ffffff solid; HEIGHT: 28px
+}
+TH.thCornerL {
+	BORDER-RIGHT: #ffffff solid; BORDER-TOP: #ffffff solid; FONT-WEIGHT: bold; BORDER-LEFT: #ffffff solid; BORDER-BOTTOM: #ffffff solid; HEIGHT: 28px
+}
+TH.thCornerR {
+	BORDER-RIGHT: #ffffff solid; BORDER-TOP: #ffffff solid; FONT-WEIGHT: bold; BORDER-LEFT: #ffffff solid; BORDER-BOTTOM: #ffffff solid; HEIGHT: 28px
+}
+TD.row3Right {
+	BORDER-RIGHT: #eae8cf solid; BORDER-TOP: #eae8cf solid; BORDER-LEFT: #eae8cf solid; BORDER-BOTTOM: #eae8cf solid; BACKGROUND-COLOR: #eae8cf
+}
+TD.spaceRow {
+	BORDER-RIGHT: #eae8cf solid; BORDER-TOP: #eae8cf solid; BORDER-LEFT: #eae8cf solid; BORDER-BOTTOM: #eae8cf solid; BACKGROUND-COLOR: #eae8cf
+}
+TH.thHead {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 1px
+}
+TD.catHead {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 1px
+}
+TH.thSides {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 1px
+}
+TD.catSides {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 1px
+}
+TD.spaceRow {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 1px
+}
+TH.thRight {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 1px
+}
+TD.catRight {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 1px
+}
+TD.row3Right {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 1px
+}
+TH.thLeft {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+TD.catLeft {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+TH.thBottom {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT-WIDTH: 1px
+}
+TD.catBottom {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT-WIDTH: 1px
+}
+TH.thTop {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+TH.thCornerL {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+TH.thCornerR {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 1px
+}
+.maintitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 22px; COLOR: #000000; LINE-HEIGHT: 120%; FONT-FAMILY: "Trebuchet MS",Verdana, Arial, Helvetica; TEXT-DECORATION: none
+}
+.gen {
+	FONT-SIZE: 12px
+}
+.genmed {
+	FONT-SIZE: 11px
+}
+.gensmall {
+	FONT-SIZE: 10px
+}
+.gen {
+	COLOR: #000000
+}
+.genmed {
+	COLOR: #000000
+}
+.gensmall {
+	COLOR: #000000
+}
+A.gen {
+	COLOR: #3f702e; TEXT-DECORATION: none
+}
+A.genmed {
+	COLOR: #3f702e; TEXT-DECORATION: none
+}
+A.gensmall {
+	COLOR: #3f702e; TEXT-DECORATION: none
+}
+A.gen:hover {
+	COLOR: #dd6900; TEXT-DECORATION: underline
+}
+A.genmed:hover {
+	COLOR: #dd6900; TEXT-DECORATION: underline
+}
+A.gensmall:hover {
+	COLOR: #dd6900; TEXT-DECORATION: underline
+}
+.mainmenu {
+	FONT-SIZE: 11px; COLOR: #000000
+}
+A.mainmenu {
+	COLOR: #3f702e; TEXT-DECORATION: none
+}
+A.mainmenu:hover {
+	COLOR: #dd6900; TEXT-DECORATION: underline
+}
+.cattitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #3f702e; LETTER-SPACING: 1px
+}
+A.cattitle {
+	COLOR: #3f702e; TEXT-DECORATION: none
+}
+A.cattitle:hover {
+	TEXT-DECORATION: underline
+}
+.forumlink {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #3f702e
+}
+A.forumlink {
+	COLOR: #3f702e; TEXT-DECORATION: none
+}
+A.forumlink:hover {
+	COLOR: #dd6900; TEXT-DECORATION: underline
+}
+.nav {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000000
+}
+A.nav {
+	COLOR: #3f702e; TEXT-DECORATION: none
+}
+A.nav:hover {
+	TEXT-DECORATION: underline
+}
+.topictitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000000
+}
+H1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000000
+}
+H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000000
+}
+A.topictitle:link {
+	COLOR: #3f702e; TEXT-DECORATION: none
+}
+A.topictitle:visited {
+	COLOR: #66a650; TEXT-DECORATION: none
+}
+A.topictitle:hover {
+	COLOR: #dd6900; TEXT-DECORATION: underline
+}
+.name {
+	FONT-SIZE: 11px; COLOR: #000000
+}
+.postdetails {
+	FONT-SIZE: 10px; COLOR: #000000
+}
+.postbody {
+	FONT-SIZE: 12px; LINE-HEIGHT: 18px
+}
+.postbody2 {
+	FONT-SIZE: 11px; LINE-HEIGHT: 15px
+}
+span.sponsor {
+	BACKGROUND-COLOR: #FFFF99
+}
+A.postlink:link {
+	COLOR: #3f702e; TEXT-DECORATION: none
+}
+A.postlink:visited {
+	COLOR: #66a650; TEXT-DECORATION: none
+}
+A.postlink:hover {
+	COLOR: #dd6900; TEXT-DECORATION: underline
+}
+.code {
+	BORDER-RIGHT: #eae8cf 1px solid; BORDER-TOP: #eae8cf 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #eae8cf 1px solid; COLOR: #006600; BORDER-BOTTOM: #eae8cf 1px solid; FONT-FAMILY: Courier, sans-serif; BACKGROUND-COLOR: #fafafa
+}
+.quote {
+	BORDER-RIGHT: #eae8cf 1px solid; BORDER-TOP: #eae8cf 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #eae8cf 1px solid; COLOR: #444444; LINE-HEIGHT: 125%; BORDER-BOTTOM: #eae8cf 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica; BACKGROUND-COLOR: #fafafa
+}
+.copyright {
+	FONT-SIZE: 10px; COLOR: #444444; FONT-FAMILY: Verdana, Arial, Helvetica; LETTER-SPACING: -1px
+}
+.index
+{
+	background: #d5e3d7;
+	padding: 10px;
+	margin-top:10px;
+}
+.desc
+{
+	color: #555;
+	font-size: 10px;
+}
+
+A.copyright {
+	COLOR: #444444; TEXT-DECORATION: none
+}
+A.copyright:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+INPUT {
+	BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-COLOR: #000000; FONT: 11px Verdana, Arial, Helvetica; COLOR: #000000; BORDER-TOP-COLOR: #000000; BORDER-RIGHT-COLOR: #000000
+}
+TEXTAREA {
+	BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-COLOR: #000000; FONT: 11px Verdana, Arial, Helvetica; COLOR: #000000; BORDER-TOP-COLOR: #000000; BORDER-RIGHT-COLOR: #000000
+}
+SELECT {
+	BORDER-LEFT-COLOR: #000000; BORDER-BOTTOM-COLOR: #000000; FONT: 11px Verdana, Arial, Helvetica; COLOR: #000000; BORDER-TOP-COLOR: #000000; BORDER-RIGHT-COLOR: #000000
+}
+INPUT.post {
+	BACKGROUND-COLOR: #ffffff
+}
+TEXTAREA.post {
+	BACKGROUND-COLOR: #ffffff
+}
+SELECT {
+	BACKGROUND-COLOR: #ffffff
+}
+INPUT {
+	TEXT-INDENT: 2px
+}
+INPUT.button {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica; BACKGROUND-COLOR: #eae8cf
+}
+INPUT.mainoption {
+	FONT-WEIGHT: bold; BACKGROUND-COLOR: #fafafa
+}
+INPUT.liteoption {
+	FONT-WEIGHT: normal; BACKGROUND-COLOR: #fafafa
+}
+.helpline {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BACKGROUND-COLOR: #dfdfb9; BORDER-BOTTOM-STYLE: none
+}
+.mod {
+	font-family: Verdana, Arial, sans-serif; font-size: 11px; color: #D61717; line-height: 125%;
+	background-color: #f1e1b1; border: #D61717; border-style: solid; font-weight : bold; 
+	border-left-width: 2px; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px
+}
+/* SPELL CHECKER */
+.spelling {
+	color: red;
+	cursor: help;
+}
+
+.spelling_incorrect {
+	color: red;
+	cursor: help;
+	text-decoration: underline;
+}
+
+.spelling_correct {
+	
+}
+
+
+#spelling {
+	display: block;
+	position: absolute;
+	width: 200px;
+	text-align: center;
+	background-color: #D4D0C8;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding: 10px 5px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #FFFFFF #808080 #808080 #FFFFFF; 
+}
+
+#spelling input.post {
+	display: block;
+	margin-bottom: 10px;
+	width: 100%;
+	background-image: none;
+	background-color: #FFFFFF;
+	color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #404040 #D4D0C8 #D4D0C8 #404040; 
+}
+
+#spelling input.mainoption, #spelling input.liteoption {
+	background-image: none;
+	background-color: #D4D0C8;
+	color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #FFFFFF #404040 #404040 #FFFFFF; 
+}
+
+#spelling a {
+	display: block;
+	margin-top: 20px;
+	margin-left: 25%;
+	text-align: right;
+	color: #0000FF;
+	background-image: none;
+	background-color: #D4D0C8;
+	border: 0;
+	font-size: 10px;
+	font-weight: normal;
+}
+.tabnav
+	{
+		/*height: 30px !important;*/
+		height: 26px !important;
+		height: 28px;
+		margin: 0;
+		padding-left: 5px;
+		background: #EAE8CF;
+		border-bottom: 2px solid #ffffff;
+		position: relative;
+
+		
+		
+	}
+.tabnav span {
+position:absolute;
+}
+.tabnav li
+	{
+		margin: 0;
+		padding: 0;
+  		display: inline;
+  		list-style-type: none;
+  		
+  		
+  		
+  	}
+	
+.tabnav a:link, .tabnav a:visited
+	{
+		float: left;
+		background: #dfdfb9;
+		font-size: 10px;
+		line-height: 14px;
+		font-weight: bold;
+		padding: 5px 8px 5px 8px;
+		margin-right: 2px;
+		border: 2px solid #ffffff;
+		text-decoration: none;
+		
+	}
+
+.tabnav a:link.active, .tabnav a:visited.active
+	{
+		border-bottom: 2px solid #eae8cf;
+		background: #eae8cf;
+		color: #000;
+	}
+
+.tabnav a:hover
+	{
+		background: #eae8cf;
+		color: #000;
+	}
+
+/* /SPELL CHECKER */
+/* Import the fancy styles for IE only (NS4.x doesn't use the @import function) */
+@import url("formIE.css");
